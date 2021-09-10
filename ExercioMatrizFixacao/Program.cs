@@ -27,6 +27,7 @@ namespace ExercioMatrizFixacao
                 {
                     if (mat[i, j] == x)
                     {
+                        Console.WriteLine();
                         Console.WriteLine($"Position: {i},{j}");
                         if (j > 0)
                         {
@@ -44,6 +45,8 @@ namespace ExercioMatrizFixacao
                         {
                             Console.WriteLine($"Down: {mat[i + 1, j]}");
                         }
+                        Console.WriteLine();
+
                     }
                 }
             }
